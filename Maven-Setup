@@ -15,6 +15,6 @@ mvn version
 Install git
 yum install git
 
-Assign shell to jenkins user
+## Assign shell to jenkins user
 vi /etc/passwd
 change shell from /bin/false to /bin/bash

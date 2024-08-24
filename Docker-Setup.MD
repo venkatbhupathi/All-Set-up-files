@@ -13,6 +13,7 @@ systemctl enable docker
 ```
 ## Add Jenkins user into sudoers file to get sudo access
 ```sh
+Add this under the line (Add root to run any command anywhere)
    vi /etc/sudoers
    jenkins ALL=(ALL) NOPASSWD: ALL
 ```   

@@ -12,7 +12,7 @@ yum install jenkins -y
 systemctl start jenkins
 
 # Start Jenkins to start at boot
-systemctl enable jenkins
+systemctl enable jenkins     # Or chkconfig jenkins on
 
 # Install Git
 yum install git -y

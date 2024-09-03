@@ -1,4 +1,4 @@
-Install and Configure Maven & git in Jenkins server
+1. ##Install and Configure Maven & git in Jenkins server
 
 ```sh
 Install Maven
@@ -6,26 +6,31 @@ yum install wget
 wget https://mirror.lyrahosting.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
 tar -xvzf apache-maven-3.8.1-bin.tar.gz
 ```
+
+1. ## Export env variables
+
 ```sh
 export M2_HOME=/opt/apache-maven-3.8.1
 export M2=$M2_HOME/bin
 PATH=$PATH:$M2
 ```
 
-# To set it permanently update your .bash_profile
+1. # To set it permanently update your .bash_profile
 ```sh
 source ~/.bash_profile
 ```
 
-Validate Maven
+1. Validate Maven
 ```sh
 mvn version
 ```
+1. Install Git
 ```sh
 Install git
 yum install git
 ```
-## Assign shell to jenkins user
+
+1. ## Assign shell to jenkins user
 ```sh
 vi /etc/passwd
 change shell from /bin/false to /bin/bash

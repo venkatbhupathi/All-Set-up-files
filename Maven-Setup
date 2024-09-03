@@ -1,11 +1,11 @@
-1. ##Install and Configure Maven & git in Jenkins server
-
-```sh
-Install Maven
-yum install wget
-wget https://mirror.lyrahosting.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
-tar -xvzf apache-maven-3.8.1-bin.tar.gz
-```
+##Install and Configure Maven & git in Jenkins server
+1. install maven git and jenkins
+    ```sh
+    Install Maven
+    yum install wget
+    wget https://mirror.lyrahosting.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
+    tar -xvzf apache-maven-3.8.1-bin.tar.gz
+    ```
 
 1. ## Export env variables
 
